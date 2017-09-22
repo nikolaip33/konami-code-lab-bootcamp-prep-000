@@ -7,7 +7,7 @@ function init() {
   let index = 0;
   document.body.addEventListener('keypress', function(e) {
     var key = parseInt(e.detail || e.which);
-      if(key === code[index]){
+    if(key === code[index]){
         /*index++;
 
         if(index === code.length){
