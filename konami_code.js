@@ -19,7 +19,6 @@ function init() {
       else {
         index = 0;
       }//else*/
-      console.log("test")
     }//if(key)
   })//eventListener
 }//function
