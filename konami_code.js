@@ -8,7 +8,7 @@ function init() {
   document.body.addEventListener('keypress', function(e) {
     var key = parseInt(e.detail || e.which);
       if(key === code[index]){
-        index++;
+        /*index++;
         console.log("test")
         if(index === code.length){
           alert("Congratulations!!");
@@ -17,7 +17,7 @@ function init() {
       }//if(index-test)
       else {
         index = 0;
-      }//else
+      }//else*/
     }//if(key)
   })
 }
