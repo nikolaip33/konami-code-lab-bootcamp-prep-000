@@ -1,26 +1,26 @@
 console.log("Let the games begin????")
-const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
+const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+let index = 0;
+
 
 function init() {
-  console.log("Let the games begin!")
-  let index = 0
 
-    document.body.addEventListener('keydown', function(e) {
-    console.log(e.which)
+  document.body.addEventListener('keypress', function(e) {
     const key = parseInt(e.detail || e.which);
-    if (key === code[index]) {
-      index++;
+      if(key === code[index]){
+        /*index++;
 
-      if (index === code.length) {
-        alert("Komnami!");
-
+        if(index === code.length){
+          alert("Congratulations!!");
+          index=0;
+        }
+      }//if(index-test)
+      else {
         index = 0;
-      }
-    }
-    else {
-      index = 0;
-    }
-  })
-}
+      }//else*/
+      console.log("test")
+    }//if(key)
+  })//eventListener
+}//function
 
 init()
