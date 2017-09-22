@@ -20,6 +20,7 @@ function init() {
       }//else*/
       console.log("test")
     }//if(key)
-  })
-}
+  })//eventListener
+}//function
+
 init()
