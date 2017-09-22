@@ -14,12 +14,11 @@ function init() {
         if(index === code.length){
           alert("Congratulations!!");
           index=0;
-        }
+        }//if(index-test)
         else {
           index = 0;
-        }
-      }
-    }
+        }//else
+      }//if(key)
   });
 }
 init()
