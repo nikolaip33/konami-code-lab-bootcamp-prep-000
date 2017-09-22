@@ -9,7 +9,7 @@ function init() {
     var key = parseInt(e.detail || e.which);
       if(key === code[index]){
         /*index++;
-        console.log("test")
+
         if(index === code.length){
           alert("Congratulations!!");
           index=0;
@@ -18,6 +18,7 @@ function init() {
       else {
         index = 0;
       }//else*/
+      console.log("test")
     }//if(key)
   })
 }
